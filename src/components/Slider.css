@@ -1,0 +1,102 @@
+.title {
+  padding-top: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.sub__title {
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.slider__block-link{
+  text-decoration: none;
+}
+.slider__block{
+  margin-right: 16px;
+}
+.slider__scrim {
+  display: none;
+}
+.slider__image{
+  position: relative;
+}
+.accommodation {
+}
+.popular {
+}
+.houses {
+}
+.accommodation .slider__block {
+  width: 100%;
+  max-width: 170px;
+}
+
+.accommodation .slider__content {
+  padding: 16px 0 0;
+}
+
+.popular .slider__block {
+  width: 100%;
+  max-width: 170px;
+}
+.popular .slider__content {
+  margin: 16px 0 0;
+}
+
+.navigation .slider__content {
+  display: none;
+}
+.navigation .slider__scrim {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+.navigation .slider__block {
+  width: 100%;
+  max-width: 210.59px;
+}
+
+.houses .slider__block {
+  width: 100%;
+  max-width: 259px;
+}
+.houses .slider__content {
+  margin: 16px 0 0;
+}
+
+
+.blog .slider__block {
+  width: 100%;
+  max-width: 263px;
+}
+.blog .slider__content {
+  margin: 16px 0 0;
+}
+
+.slider__inner {
+  padding: 16px 0px;
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.slider__img {
+  width: 100%;
+}
+.slider__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+}
+.slider__info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6b6b6b;
+}

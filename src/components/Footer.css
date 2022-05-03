@@ -1,0 +1,33 @@
+.footer{
+    padding-top: 65px;
+}
+
+.footer-navigation-links {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-navigation-links-column {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+}
+.footer-navigation-links-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-navigation-link {
+    display: block;
+    line-height: 14px;
+    font-size: 13px;
+    list-style-type: none;
+    white-space: normal !important;
+    margin: 0px 0px 10px;
+}
+.footer-navigation-link a {
+    font-weight: 400;
+    text-decoration: none;
+}

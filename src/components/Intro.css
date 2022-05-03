@@ -1,0 +1,24 @@
+.header {
+  font-size: 24px;
+  padding: 19px 0px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  font-size: 29px;
+  background-color: blueviolet;
+  padding: 18px 30px;
+}
+
+.header__link {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  margin-right: 20px;
+}
+
+.header__link:hover {
+  color: burlywood;
+  transform: scale(1.2);
+}
