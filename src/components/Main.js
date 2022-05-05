@@ -1,4 +1,5 @@
 import Slider from "./Slider";
+import data from "../Data_Base"
 
 let t1 = "Поиск по типу размещения",
   t2 = "Казахстан — откройте для себя эту страну",
@@ -8,32 +9,32 @@ let t1 = "Поиск по типу размещения",
   st1 = "В этих популярных местах вы точно найдете что-то для себя";
 
 let sliderDate = [
-  { blockNumber: 6, imgNumber: 1, title: t1, subtitle: "" },
-  { blockNumber: 6, imgNumber: 2, title: t2, subtitle: st1 },
-  { blockNumber: 5, imgNumber: 4, title: t3, subtitle: "" },
-  { blockNumber: 4, imgNumber: 5, title: t4, subtitle: "" },
-  { blockNumber: 2, imgNumber: 6, title: t5, subtitle: "" },
-  { blockNumber: 6, imgNumber: 1, title: t1, subtitle: "" },
+  { title: t1, subtitle: "" },
+  { title: t2, subtitle: st1 },
+  { title: t3, subtitle: "" },
+  { title: t4, subtitle: "" },
+  { title: t5, subtitle: "" },
+  { title: t1, subtitle: "" },
 ];
 
 function Main() {
   return (
     <div className="main">
       <div className="accommodation">
-        <Slider sliderDate={sliderDate[0]}></Slider>
+        <Slider dataBase={data.accommodation} sliderDate={sliderDate[0]}></Slider>
       </div>
       <div className="popular">
-        <Slider sliderDate={sliderDate[1]}></Slider>
+        <Slider dataBase={data.kz} sliderDate={sliderDate[1]}></Slider>
       </div>
       <div className="navigation">
-        <Slider sliderDate={sliderDate[2]}></Slider>
+        <Slider dataBase={data.navigation} sliderDate={sliderDate[2]}></Slider>
       </div>
       <div className="houses">
-        <Slider sliderDate={sliderDate[3]}></Slider>
+        <Slider dataBase={data.houses} sliderDate={sliderDate[3]}></Slider>
       </div>
-      <div className="blog">
+      {/* <div className="blog">
         <Slider sliderDate={sliderDate[4]}></Slider>
-      </div>
+      </div> */}
     </div>
   );
 }

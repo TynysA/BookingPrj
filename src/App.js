@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Flights from "./components/Flights";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// Flights
 function App() {
   return (
     <BrowserRouter>
